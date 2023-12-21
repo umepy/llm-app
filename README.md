@@ -8,3 +8,4 @@
 
 ## 記事について
 
+1. [【初心者向け】１時間で自分だけのAIチャットアプリを作ろう！〜基礎編〜](https://www.tc3.co.jp/make_ai_chat_app_fron_scratch/)
