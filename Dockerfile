@@ -14,6 +14,5 @@ RUN poetry config virtualenvs.in-project true
 COPY ./ ./
 RUN poetry install
 
-CMD ["poetry", "run", "streamlit", "run", "app.py", "--server.port", "8080"]
-
-#ENTRYPOINT ["bash", "start.sh"]
+# CMD ["poetry", "run", "streamlit", "run", "app.py", "--server.port", "8080"]
+ENTRYPOINT ["bash", "start.sh"]
