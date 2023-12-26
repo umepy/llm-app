@@ -10,7 +10,7 @@ if st.session_state.get("chat_messages") is None:
 
 # sidebar
 st.sidebar.title("設定")
-st.session_state["model_name"] = st.sidebar.selectbox("AIモデル", ["gpt-3.5", "Swallow"])
+st.session_state["model_name"] = st.sidebar.selectbox("AIモデル", ["gpt-3.5", "gpt-4"])
 
 
 st.subheader("AIとチャットする")
